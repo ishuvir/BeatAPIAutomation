@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  API_ENDPOINT_Validation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API_ENDPOINT_Validation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 03 00:32:45 CET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24510 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.DELETE_Employee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@53f65459</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.PerfResponseTimevalidation()'><b>PerfResponseTimevalidation</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@1786dec2</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.PerfResponseTimevalidation()'><b>PerfResponseTimevalidation</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.StatusLine_DeleteRequest()'><b>StatusLine_DeleteRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@53f65459</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.StatusLine_GetRequest()'><b>StatusLine_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@1786dec2</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.StatusLine_GetRequest()'><b>StatusLine_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.StatusLine_POSTRequest()'><b>StatusLine_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.StatusLine_PUTRequest()'><b>StatusLine_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.Statuscode_DeleteRequest()'><b>Statuscode_DeleteRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@53f65459</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.Statuscode_GetRequest()'><b>Statuscode_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@1786dec2</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.Statuscode_GetRequest()'><b>Statuscode_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.Statuscode_POSTRequest()'><b>Statuscode_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.Statuscode_PUTRequest()'><b>Statuscode_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.bodyvalidation_GetRequest()'><b>bodyvalidation_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.bodyvalidation_POSTRequest()'><b>bodyvalidation_POSTRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@53f65459</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.bodyvalidation_POSTRequest()'><b>bodyvalidation_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.bodyvalidation_PUTRequest()'><b>bodyvalidation_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.DELETE_Employee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@53f65459</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@1786dec2</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.payload_BodyPOSTRequest()'><b>payload_BodyPOSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@3b088d51</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.payload_BodyPUTRequest()'><b>payload_BodyPUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@74650e52</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.payload_GetRequest()'><b>payload_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@1786dec2</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.payload_GetRequest()'><b>payload_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@15d0c81b</td></tr>
+</table><p>
+</body>
+</html>

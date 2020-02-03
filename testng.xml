@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BeatTechChallange">
+  <test thread-count="5" name="API_ENDPOINT_Validation">
+    <classes>
+      <class name="APITest.DELETE_Employee_Validation_Test"/>
+      <class name="APITest.Post_CreateEmployee_Validation_Test"/>
+      <class name="APITest.Get_SingleEmployeeValidation_Test"/>
+      <class name="APITest.PUT_UpdateEmp_Validation_Test"/>
+      <class name="APITest.GetRequestValidation_Test"/>
+    </classes>
+  </test> <!-- API_ENDPOINT_Validation -->
+</suite> <!-- BeatTechChallange -->

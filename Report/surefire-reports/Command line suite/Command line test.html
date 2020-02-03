@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 03 01:58:09 CET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22529 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.DELETE_Employee_Validation_Test<br/>
+<a href="#Output-1878992188" onClick='toggleBox("Output-1878992188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1878992188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878992188">
+Response Time_DeleteRequest Test Execution Started<br/>
+Response time Validation<br/>
+Performance:Response time validation is Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@3159c4b8</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.CreateResponseTimevalidation()'><b>CreateResponseTimevalidation</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.PerfResponseTimevalidation()'><b>PerfResponseTimevalidation</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.PerfResponseTimevalidation()'><b>PerfResponseTimevalidation</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@4bec1f0c</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.StatusLine_DeleteRequest()'><b>StatusLine_DeleteRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test<br/>
+<a href="#Output-1250582716" onClick='toggleBox("Output-1250582716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250582716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250582716">
+StatusLine DeleteRequest Test Execution Started<br/>
+StatusLine Validation<br/>
+Status line validation is Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@3159c4b8</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.StatusLine_GetRequest()'><b>StatusLine_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.StatusLine_GetRequest()'><b>StatusLine_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@4bec1f0c</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.StatusLine_POSTRequest()'><b>StatusLine_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.StatusLine_PUTRequest()'><b>StatusLine_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.Statuscode_DeleteRequest()'><b>Statuscode_DeleteRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test<br/>
+<a href="#Output-1525844775" onClick='toggleBox("Output-1525844775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1525844775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1525844775">
+Statuscode_DeleteRequest Test Execution Started<br/>
+StatusCode Validation<br/>
+Status code validation is Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@3159c4b8</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.Statuscode_GetRequest()'><b>Statuscode_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.Statuscode_GetRequest()'><b>Statuscode_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@4bec1f0c</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.Statuscode_POSTRequest()'><b>Statuscode_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.Statuscode_PUTRequest()'><b>Statuscode_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.bodyvalidation_GetRequest()'><b>bodyvalidation_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.bodyvalidation_POSTRequest()'><b>bodyvalidation_POSTRequest</b><br>Test class: APITest.DELETE_Employee_Validation_Test<br/>
+<a href="#Output-1334405552" onClick='toggleBox("Output-1334405552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334405552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334405552">
+Payload _DeleteRequest Test Execution Started<br/>
+Response Body Validation<br/>
+Response Body validation is Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@3159c4b8</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.bodyvalidation_POSTRequest()'><b>bodyvalidation_POSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.bodyvalidation_PUTRequest()'><b>bodyvalidation_PUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.DELETE_Employee_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.DELETE_Employee_Validation_Test<br/>
+<a href="#Output-1455177644" onClick='toggleBox("Output-1455177644", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1455177644" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1455177644">
+Header_DeleteRequest Test Execution Started<br/>
+Header Validation<br/>
+Header validation is Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITest.DELETE_Employee_Validation_Test@3159c4b8</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@4bec1f0c</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.headervalidation()'><b>headervalidation</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.Post_CreateEmployee_Validation_Test.payload_BodyPOSTRequest()'><b>payload_BodyPOSTRequest</b><br>Test class: APITest.Post_CreateEmployee_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Post_CreateEmployee_Validation_Test@29ca901e</td></tr>
+<tr>
+<td title='APITest.PUT_UpdateEmp_Validation_Test.payload_BodyPUTRequest()'><b>payload_BodyPUTRequest</b><br>Test class: APITest.PUT_UpdateEmp_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.PUT_UpdateEmp_Validation_Test@5649fd9b</td></tr>
+<tr>
+<td title='APITest.GetRequestValidation_Test.payload_GetRequest()'><b>payload_GetRequest</b><br>Test class: APITest.GetRequestValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.GetRequestValidation_Test@73846619</td></tr>
+<tr>
+<td title='APITest.Get_SingleEmployeeValidation_Test.payload_GetRequest()'><b>payload_GetRequest</b><br>Test class: APITest.Get_SingleEmployeeValidation_Test</td>
+<td></td>
+<td>0</td>
+<td>APITest.Get_SingleEmployeeValidation_Test@4bec1f0c</td></tr>
+</table><p>
+</body>
+</html>

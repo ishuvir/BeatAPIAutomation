@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Response Time_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Response time Validation]]>
+    </line>
+    <line>
+      <![CDATA[Performance:Response time validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[StatusLine DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[StatusLine Validation]]>
+    </line>
+    <line>
+      <![CDATA[Status line validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Statuscode_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[StatusCode Validation]]>
+    </line>
+    <line>
+      <![CDATA[Status code validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Payload _DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Response Body Validation]]>
+    </line>
+    <line>
+      <![CDATA[Response Body validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Header_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Header Validation]]>
+    </line>
+    <line>
+      <![CDATA[Header validation is Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6841" started-at="2020-02-03T02:10:49 CET" finished-at="2020-02-03T02:10:56 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6841" started-at="2020-02-03T02:10:49 CET" finished-at="2020-02-03T02:10:56 CET">
+      <class name="APITest.DELETE_Employee_Validation_Test">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="ReportSetup" is-config="true" duration-ms="211" started-at="2020-02-03T02:10:49 CET" finished-at="2020-02-03T02:10:49 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="setup" is-config="true" duration-ms="8" started-at="2020-02-03T02:10:49 CET" finished-at="2020-02-03T02:10:49 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29006752]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="initialization" is-config="true" duration-ms="3353" started-at="2020-02-03T02:10:49 CET" finished-at="2020-02-03T02:10:53 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="CreateResponseTimevalidation()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="CreateResponseTimevalidation" duration-ms="18" started-at="2020-02-03T02:10:53 CET" finished-at="2020-02-03T02:10:53 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Response time Validation]]>
+            </line>
+            <line>
+              <![CDATA[Performance:Response time validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="initialization" is-config="true" duration-ms="741" started-at="2020-02-03T02:10:53 CET" finished-at="2020-02-03T02:10:53 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_DeleteRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="StatusLine_DeleteRequest" duration-ms="4" started-at="2020-02-03T02:10:53 CET" finished-at="2020-02-03T02:10:53 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[StatusLine DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[StatusLine Validation]]>
+            </line>
+            <line>
+              <![CDATA[Status line validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StatusLine_DeleteRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="initialization" is-config="true" duration-ms="671" started-at="2020-02-03T02:10:53 CET" finished-at="2020-02-03T02:10:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Statuscode_DeleteRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="Statuscode_DeleteRequest" duration-ms="4" started-at="2020-02-03T02:10:54 CET" finished-at="2020-02-03T02:10:54 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Statuscode_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[StatusCode Validation]]>
+            </line>
+            <line>
+              <![CDATA[Status code validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Statuscode_DeleteRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="initialization" is-config="true" duration-ms="654" started-at="2020-02-03T02:10:54 CET" finished-at="2020-02-03T02:10:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="bodyvalidation_POSTRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="bodyvalidation_POSTRequest" duration-ms="648" started-at="2020-02-03T02:10:55 CET" finished-at="2020-02-03T02:10:55 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Payload _DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Response Body Validation]]>
+            </line>
+            <line>
+              <![CDATA[Response Body validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bodyvalidation_POSTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="initialization" is-config="true" duration-ms="680" started-at="2020-02-03T02:10:55 CET" finished-at="2020-02-03T02:10:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="headervalidation" duration-ms="4" started-at="2020-02-03T02:10:56 CET" finished-at="2020-02-03T02:10:56 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Header_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Header Validation]]>
+            </line>
+            <line>
+              <![CDATA[Header validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-03T02:10:56 CET" finished-at="2020-02-03T02:10:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="ReportDone()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@1d29cf23]" name="ReportDone" is-config="true" duration-ms="4" started-at="2020-02-03T02:10:56 CET" finished-at="2020-02-03T02:10:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportDone -->
+      </class> <!-- APITest.DELETE_Employee_Validation_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

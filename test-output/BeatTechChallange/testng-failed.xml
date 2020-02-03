@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BeatTechChallange]">
+  <test thread-count="5" name="API_ENDPOINT_Validation(failed)">
+    <classes>
+      <class name="APITest.GetRequestValidation_Test">
+        <methods>
+          <include name="payload_GetRequest"/>
+          <include name="StatusLine_GetRequest"/>
+          <include name="bodyvalidation_GetRequest"/>
+          <include name="ReportSetup"/>
+          <include name="headervalidation"/>
+          <include name="Statuscode_GetRequest"/>
+          <include name="ReportDone"/>
+          <include name="initialization"/>
+          <include name="PerfResponseTimevalidation"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- APITest.GetRequestValidation_Test -->
+      <class name="APITest.Post_CreateEmployee_Validation_Test">
+        <methods>
+          <include name="StatusLine_POSTRequest"/>
+          <include name="initialization"/>
+          <include name="bodyvalidation_POSTRequest"/>
+          <include name="ReportSetup"/>
+          <include name="CreateResponseTimevalidation"/>
+          <include name="afterTest"/>
+          <include name="payload_BodyPOSTRequest"/>
+          <include name="ReportDone"/>
+          <include name="headervalidation"/>
+          <include name="Statuscode_POSTRequest"/>
+        </methods>
+      </class> <!-- APITest.Post_CreateEmployee_Validation_Test -->
+      <class name="APITest.Get_SingleEmployeeValidation_Test">
+        <methods>
+          <include name="payload_GetRequest"/>
+          <include name="StatusLine_GetRequest"/>
+          <include name="ReportSetup"/>
+          <include name="Statuscode_GetRequest"/>
+          <include name="afterTest"/>
+          <include name="ReportDone"/>
+          <include name="headervalidation"/>
+          <include name="initialization"/>
+          <include name="PerfResponseTimevalidation"/>
+        </methods>
+      </class> <!-- APITest.Get_SingleEmployeeValidation_Test -->
+      <class name="APITest.PUT_UpdateEmp_Validation_Test">
+        <methods>
+          <include name="headervalidation"/>
+          <include name="StatusLine_PUTRequest"/>
+          <include name="ReportSetup"/>
+          <include name="afterTest"/>
+          <include name="Statuscode_PUTRequest"/>
+          <include name="payload_BodyPUTRequest"/>
+          <include name="bodyvalidation_PUTRequest"/>
+          <include name="ReportDone"/>
+          <include name="CreateResponseTimevalidation"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- APITest.PUT_UpdateEmp_Validation_Test -->
+    </classes>
+  </test> <!-- API_ENDPOINT_Validation(failed) -->
+</suite> <!-- Failed suite [BeatTechChallange] -->

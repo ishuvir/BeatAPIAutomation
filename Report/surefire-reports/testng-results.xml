@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="36" passed="28">
+  <reporter-output>
+    <line>
+      <![CDATA[Response Time_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Response time Validation]]>
+    </line>
+    <line>
+      <![CDATA[Performance:Response time validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[StatusLine DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[StatusLine Validation]]>
+    </line>
+    <line>
+      <![CDATA[Status line validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Statuscode_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[StatusCode Validation]]>
+    </line>
+    <line>
+      <![CDATA[Status code validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Payload _DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Response Body Validation]]>
+    </line>
+    <line>
+      <![CDATA[Response Body validation is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Header_DeleteRequest Test Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Header Validation]]>
+    </line>
+    <line>
+      <![CDATA[Header validation is Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="22529" started-at="2020-02-03T01:58:09 CET" finished-at="2020-02-03T01:58:31 CET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="22529" started-at="2020-02-03T01:58:09 CET" finished-at="2020-02-03T01:58:31 CET">
+      <class name="APITest.PUT_UpdateEmp_Validation_Test">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="682" started-at="2020-02-03T01:58:27 CET" finished-at="2020-02-03T01:58:28 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="CreateResponseTimevalidation()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="CreateResponseTimevalidation" duration-ms="0" started-at="2020-02-03T01:58:28 CET" finished-at="2020-02-03T01:58:28 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="604" started-at="2020-02-03T01:58:28 CET" finished-at="2020-02-03T01:58:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_PUTRequest()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="StatusLine_PUTRequest" duration-ms="0" started-at="2020-02-03T01:58:29 CET" finished-at="2020-02-03T01:58:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusLine_PUTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="609" started-at="2020-02-03T01:58:29 CET" finished-at="2020-02-03T01:58:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Statuscode_PUTRequest()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="Statuscode_PUTRequest" duration-ms="4" started-at="2020-02-03T01:58:29 CET" finished-at="2020-02-03T01:58:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Statuscode_PUTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="675" started-at="2020-02-03T01:58:29 CET" finished-at="2020-02-03T01:58:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="bodyvalidation_PUTRequest()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="bodyvalidation_PUTRequest" duration-ms="32" started-at="2020-02-03T01:58:30 CET" finished-at="2020-02-03T01:58:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyvalidation_PUTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="605" started-at="2020-02-03T01:58:30 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="headervalidation" duration-ms="3" started-at="2020-02-03T01:58:31 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="initialization" is-config="true" duration-ms="621" started-at="2020-02-03T01:58:31 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="payload_BodyPUTRequest()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="payload_BodyPUTRequest" duration-ms="12" started-at="2020-02-03T01:58:31 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payload_BodyPUTRequest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.PUT_UpdateEmp_Validation_Test@5649fd9b]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-03T01:58:31 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- APITest.PUT_UpdateEmp_Validation_Test -->
+      <class name="APITest.GetRequestValidation_Test">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="658" started-at="2020-02-03T01:58:15 CET" finished-at="2020-02-03T01:58:16 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="PerfResponseTimevalidation()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="PerfResponseTimevalidation" duration-ms="0" started-at="2020-02-03T01:58:16 CET" finished-at="2020-02-03T01:58:16 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerfResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="636" started-at="2020-02-03T01:58:16 CET" finished-at="2020-02-03T01:58:17 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_GetRequest()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="StatusLine_GetRequest" duration-ms="0" started-at="2020-02-03T01:58:17 CET" finished-at="2020-02-03T01:58:17 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusLine_GetRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="708" started-at="2020-02-03T01:58:17 CET" finished-at="2020-02-03T01:58:17 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Statuscode_GetRequest()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="Statuscode_GetRequest" duration-ms="0" started-at="2020-02-03T01:58:17 CET" finished-at="2020-02-03T01:58:17 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Statuscode_GetRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="610" started-at="2020-02-03T01:58:17 CET" finished-at="2020-02-03T01:58:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="bodyvalidation_GetRequest()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="bodyvalidation_GetRequest" duration-ms="662" started-at="2020-02-03T01:58:18 CET" finished-at="2020-02-03T01:58:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyvalidation_GetRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="709" started-at="2020-02-03T01:58:19 CET" finished-at="2020-02-03T01:58:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="headervalidation" duration-ms="0" started-at="2020-02-03T01:58:19 CET" finished-at="2020-02-03T01:58:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="initialization" is-config="true" duration-ms="695" started-at="2020-02-03T01:58:19 CET" finished-at="2020-02-03T01:58:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="payload_GetRequest()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="payload_GetRequest" duration-ms="19" started-at="2020-02-03T01:58:20 CET" finished-at="2020-02-03T01:58:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payload_GetRequest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.GetRequestValidation_Test@73846619]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-03T01:58:20 CET" finished-at="2020-02-03T01:58:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- APITest.GetRequestValidation_Test -->
+      <class name="APITest.Get_SingleEmployeeValidation_Test">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="initialization" is-config="true" duration-ms="746" started-at="2020-02-03T01:58:20 CET" finished-at="2020-02-03T01:58:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="PerfResponseTimevalidation()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="PerfResponseTimevalidation" duration-ms="0" started-at="2020-02-03T01:58:21 CET" finished-at="2020-02-03T01:58:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerfResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="initialization" is-config="true" duration-ms="694" started-at="2020-02-03T01:58:21 CET" finished-at="2020-02-03T01:58:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_GetRequest()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="StatusLine_GetRequest" duration-ms="0" started-at="2020-02-03T01:58:21 CET" finished-at="2020-02-03T01:58:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusLine_GetRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="initialization" is-config="true" duration-ms="725" started-at="2020-02-03T01:58:21 CET" finished-at="2020-02-03T01:58:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Statuscode_GetRequest()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="Statuscode_GetRequest" duration-ms="0" started-at="2020-02-03T01:58:22 CET" finished-at="2020-02-03T01:58:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Statuscode_GetRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="initialization" is-config="true" duration-ms="615" started-at="2020-02-03T01:58:22 CET" finished-at="2020-02-03T01:58:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="headervalidation" duration-ms="2" started-at="2020-02-03T01:58:23 CET" finished-at="2020-02-03T01:58:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="initialization" is-config="true" duration-ms="626" started-at="2020-02-03T01:58:23 CET" finished-at="2020-02-03T01:58:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="payload_GetRequest()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="payload_GetRequest" duration-ms="55" started-at="2020-02-03T01:58:23 CET" finished-at="2020-02-03T01:58:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payload_GetRequest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.Get_SingleEmployeeValidation_Test@4bec1f0c]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-03T01:58:23 CET" finished-at="2020-02-03T01:58:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- APITest.Get_SingleEmployeeValidation_Test -->
+      <class name="APITest.Post_CreateEmployee_Validation_Test">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="718" started-at="2020-02-03T01:58:23 CET" finished-at="2020-02-03T01:58:24 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="CreateResponseTimevalidation()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="CreateResponseTimevalidation" duration-ms="0" started-at="2020-02-03T01:58:24 CET" finished-at="2020-02-03T01:58:24 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="603" started-at="2020-02-03T01:58:24 CET" finished-at="2020-02-03T01:58:25 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_POSTRequest()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="StatusLine_POSTRequest" duration-ms="0" started-at="2020-02-03T01:58:25 CET" finished-at="2020-02-03T01:58:25 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusLine_POSTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="622" started-at="2020-02-03T01:58:25 CET" finished-at="2020-02-03T01:58:25 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Statuscode_POSTRequest()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="Statuscode_POSTRequest" duration-ms="0" started-at="2020-02-03T01:58:25 CET" finished-at="2020-02-03T01:58:25 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Statuscode_POSTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="631" started-at="2020-02-03T01:58:25 CET" finished-at="2020-02-03T01:58:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="bodyvalidation_POSTRequest()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="bodyvalidation_POSTRequest" duration-ms="12" started-at="2020-02-03T01:58:26 CET" finished-at="2020-02-03T01:58:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyvalidation_POSTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="657" started-at="2020-02-03T01:58:26 CET" finished-at="2020-02-03T01:58:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="headervalidation" duration-ms="0" started-at="2020-02-03T01:58:27 CET" finished-at="2020-02-03T01:58:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="initialization" is-config="true" duration-ms="643" started-at="2020-02-03T01:58:27 CET" finished-at="2020-02-03T01:58:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="payload_BodyPOSTRequest()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="payload_BodyPOSTRequest" duration-ms="12" started-at="2020-02-03T01:58:27 CET" finished-at="2020-02-03T01:58:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payload_BodyPOSTRequest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.Post_CreateEmployee_Validation_Test@29ca901e]" name="afterTest" is-config="true" duration-ms="4" started-at="2020-02-03T01:58:27 CET" finished-at="2020-02-03T01:58:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- APITest.Post_CreateEmployee_Validation_Test -->
+      <class name="APITest.DELETE_Employee_Validation_Test">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="ReportSetup" is-config="true" duration-ms="224" started-at="2020-02-03T01:58:08 CET" finished-at="2020-02-03T01:58:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="initialization" is-config="true" duration-ms="3287" started-at="2020-02-03T01:58:09 CET" finished-at="2020-02-03T01:58:12 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="CreateResponseTimevalidation()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="CreateResponseTimevalidation" duration-ms="10" started-at="2020-02-03T01:58:12 CET" finished-at="2020-02-03T01:58:12 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Response time Validation]]>
+            </line>
+            <line>
+              <![CDATA[Performance:Response time validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateResponseTimevalidation -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="initialization" is-config="true" duration-ms="684" started-at="2020-02-03T01:58:12 CET" finished-at="2020-02-03T01:58:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="initialization" is-config="true" duration-ms="651" started-at="2020-02-03T01:58:13 CET" finished-at="2020-02-03T01:58:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="StatusLine_DeleteRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="StatusLine_DeleteRequest" duration-ms="0" started-at="2020-02-03T01:58:13 CET" finished-at="2020-02-03T01:58:13 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[StatusLine DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[StatusLine Validation]]>
+            </line>
+            <line>
+              <![CDATA[Status line validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StatusLine_DeleteRequest -->
+        <test-method status="PASS" signature="Statuscode_DeleteRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="Statuscode_DeleteRequest" duration-ms="0" started-at="2020-02-03T01:58:13 CET" finished-at="2020-02-03T01:58:13 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Statuscode_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[StatusCode Validation]]>
+            </line>
+            <line>
+              <![CDATA[Status code validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Statuscode_DeleteRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="initialization" is-config="true" duration-ms="679" started-at="2020-02-03T01:58:13 CET" finished-at="2020-02-03T01:58:14 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="bodyvalidation_POSTRequest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="bodyvalidation_POSTRequest" duration-ms="540" started-at="2020-02-03T01:58:14 CET" finished-at="2020-02-03T01:58:15 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Payload _DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Response Body Validation]]>
+            </line>
+            <line>
+              <![CDATA[Response Body validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bodyvalidation_POSTRequest -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="initialization" is-config="true" duration-ms="679" started-at="2020-02-03T01:58:15 CET" finished-at="2020-02-03T01:58:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="headervalidation()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="headervalidation" duration-ms="0" started-at="2020-02-03T01:58:15 CET" finished-at="2020-02-03T01:58:15 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Header_DeleteRequest Test Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Header Validation]]>
+            </line>
+            <line>
+              <![CDATA[Header validation is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headervalidation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="afterTest" is-config="true" duration-ms="4" started-at="2020-02-03T01:58:15 CET" finished-at="2020-02-03T01:58:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="ReportDone()[pri:0, instance:APITest.DELETE_Employee_Validation_Test@3159c4b8]" name="ReportDone" is-config="true" duration-ms="4" started-at="2020-02-03T01:58:31 CET" finished-at="2020-02-03T01:58:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportDone -->
+      </class> <!-- APITest.DELETE_Employee_Validation_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
